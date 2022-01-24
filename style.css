@@ -1,0 +1,37 @@
+#info-opacity {
+    font-size: small;
+    color: gray;
+}
+
+#posisi-icon {
+    float: right;
+}
+
+#posisi-explore {
+    padding-left: 20px;
+}
+
+
+/* Content-3 */
+
+.foto {
+    border-radius: 50%;
+    width: 15%;
+    margin: 10px 10px 20px 10px;
+}
+
+.text-name {
+    padding-left: 70px;
+    margin-top: -60px;
+}
+
+.info-name {
+    font-size: small;
+    margin-top: -20px;
+    color: gray;
+}
+
+#icon-img4 {
+    float: right;
+    margin-left: 20px;
+}
