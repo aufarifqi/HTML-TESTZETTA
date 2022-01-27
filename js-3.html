@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test JS-3</title>
+</head>
+
+<body>
+    <script>
+        function largestNumber(spoon, fork, plate) {
+            if (spoon > fork && spoon > plate) {
+                return spoon;
+            } else if (fork > spoon && fork > plate) {
+                return fork;
+            } else {
+                return plate;
+            }
+        }
+
+        const spoon = 4120;
+        const fork = 4200;
+        const plate = 2032;
+        console.log(largestNumber(spoon, fork, plate));
+    </script>
+</body>
+
+</html>
